@@ -9,27 +9,116 @@
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body class="bg-dark">
-    <!-- 300px top margin -->
-    <div class="my-5"></div>
+    <img src="./media/pidgey-bg.gif">
 
     <!-- Content -->
     <div class="d-flex justify-content-center align-items-start min-vh-100">
         <div class="container" style="max-width: 630px;">
-            <div id="intro" class="mb-5">
+            <!-- Header -->
+            <header class="mb-5">
                 <h1><a href="https://www.roblox.com/users/158259/profile" target="_blank" class="pidgey link-underline link-underline-opacity-25">pidgey</a>'s Portfolio</h1>
                 <div class="max-h-sm">
                     <h2 class="mx-3 d-inline">for Roblox</h2><img src="images/icons/luau.png" class="img-fluid">
                 </div>
+            </header>
+
+            <!-- Intro -->
+            <div id="intro" class="mb-4">
+                <h3>About me</h3>
+                <span style="color: rgb(219, 213, 119);">
+                    I'm a 24yo programmer with a software engineering degree, recently of my occupation I'm a .NET & WPF developer but when I'm not working I like to do some Lua stuff for Roblox.
+                    If you're interested in hiring me for a commission, please contact me using the link below!
+                </span>
+                <div class="d-flex justify-content-center align-items-center m-4">
+                    <a type="button" class="btn btn-primary" href="https://discord.com/users/315229296513777674" target="_blank">Contact me with Discord</a>
+                </div>
+                <span>In part of my portfolio, I also made this website <span style="font-size: smaller; font-style: italic;">that counts for something, right?</span></span>
+                
             </div>
 
-            <div id="index">
+            <!-- Index -->
+            <div id="index" class="mb-5">
                 <h3>Index</h3>
                 <div class="list-group mx-2">
                     <a href="#commissions" class="link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-75-hover py-2">Commissions</a>
-                    <a href="#commissions" class="link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-75-hover py-2">Games</a>
-                    <a href="#commissions" class="link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-75-hover py-2">Personal Projects</a>
+                    <a href="#games" class="link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-75-hover py-2">Games</a>
+                    <a href="#personalprojects" class="link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-75-hover py-2">Personal Projects</a>
                 </div>
             </div>
+            
+            <!-- Commissions -->
+            <div id="commissions" class="category">
+                <h2 class="fst-italic">Commissions</h2>
+                <span>I don't have any on record, be my first!</span>
+
+                <!-- Content -->
+
+                <br /> <br />
+                <span style="font-size: small;">Note: I do have a number of old commissions, but they're archived (in other words, i don't have access to them)</span>
+            </div>
+
+            <!-- Games -->
+            <div id="games" class="category">
+                <h2 class="fst-italic">Games</h2>
+                <a href="https://www.roblox.com/games/45342257/SHREK-THE-FORCE-AWAKENS" target="_blank" class="projectlink">
+                    <div class="project">                        
+                        <span class="title">SHREK: The Force Awakens</span>
+                        <span class="date">Jan 2019 - Mar 2019</span>
+                        <span class="description">
+                            Worked alongside <span class="link-info">SHREKTFA</span>
+                            for this game and did the scripting
+                        </span>
+                    </div>
+                </a>
+                
+                <a href="https://www.roblox.com/games/3435799/The-Iron-Cafe" target="_blank" class="projectlink">
+                    <div class="project">                        
+                        <span class="title">The Iron Cafe</span>
+                        <span class="date">Oct 2008 - Oct 2010</span>                        
+                        <span class="description">
+                            I created this game with <span class="link-info">IronEnforcer</span>
+                            back in the day by handling the scripts and such
+                        </span>
+                    </div>
+                </a>                
+            </div>
+
+            <!-- Personal Projects -->
+            <div id="personalprojects">
+                <h2 class="fst-italic">Personal Projects</h2>
+                <span class="description">Note: These are not really playable games, just projects that I made to explore Lua a little more.</span>
+
+                <div class="my-2"></div> <!-- splitter -->
+
+                <a href="https://www.roblox.com/games/14778272033/Game-1" target="_blank" class="projectlink">
+                    <div class="project">                        
+                        <span class="title">Pogostick "game"</span>
+                        <span class="date">Sep 2023</span>
+                        <span class="description">
+                            Manipulating player rig and testing constraints & physics, as well as animations. It's quite fun to play around
+                            with <span style="font-style: italic; font-size: small;">although the game doesn't have much to offer</span>
+                            <br /><br />
+                            Hold<span style="font-weight: bold;"> Space</span> to hop around. You can stick to the yellow surfaces, and some of the
+                            surfaces you land on provide different effects, such as hop power and different physic states for the pogo itself
+                        </span>
+                        <video controls muted>
+                            <source src="./media/pogo.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                </a>                
+
+                <div class="project">
+                    <span class="title">Tower Defense "game"</span>
+                    <span class="date">Nov 2021</span>
+                    <span class="description">
+                        Testing Object Oriented Programming feasibility within the platform, entirely a module-based project
+                    </span>
+                    <video controls muted>
+                        <source src="./media/tower_defense.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            </div>
+
         </div>
     </div>
 
