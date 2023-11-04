@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'DM Mono Light';
+    src: url('../fonts/DM_Mono/DMMono-Light.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DM Mono';
+    src: url('../fonts/DM_Mono/DMMono-Regular.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/static/Inter-ExtraBold.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'DM Mono Light', sans-serif;
+    color: rgb(187, 187, 187);
+}
+
+h1 {
+    font-family: 'Inter', 'sans-serif';
+    color:rgb(255, 255, 255);
+    font-style: italic;
+}
+
+h2 {
+    font-family: 'Inter', 'sans-serif';    
+}
+
+h2, h3 {
+    color: rgb(255, 255, 255);
+}
+
+.pidgey {
+    color: rgb(240, 227, 49);
+}
