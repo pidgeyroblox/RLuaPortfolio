@@ -46,6 +46,11 @@ video {
     margin-top: 10px;
 }
 
+#banner-img {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
 .container {
     position: absolute;
     top: 50px;
