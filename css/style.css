@@ -42,6 +42,10 @@ h2, h3 {
     color: rgb(240, 227, 49);
 }
 
+video {
+    margin-top: 10px;
+}
+
 .container {
     position: absolute;
     top: 50px;
@@ -54,6 +58,9 @@ h2, h3 {
 
 .category {
     margin-bottom: 100px;
+}
+.category h2 {
+    margin-bottom: 10px;
 }
 
 .projectlink {
